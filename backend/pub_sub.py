@@ -10,8 +10,8 @@ from backend.wallet.transaction_pool import TransactionPool
 
 pn_config = PNConfiguration()
 
-pn_config.subscribe_key ='sub-c-309c3f7f-343d-43af-abad-8521d645e9ce'
-pn_config.publish_key = 'pub-c-df36fb95-9463-47cd-836f-62168a859fd0'
+# pn_config.subscribe_key = add your subscriber key here
+# pn_config.publish_key = add your publish key here
 
 CHANNELS = {
     'TEST': 'TEST',
