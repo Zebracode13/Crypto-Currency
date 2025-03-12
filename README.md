@@ -36,57 +36,6 @@ This project implements a fully functional blockchain backend API for a cryptocu
 * Virtual environment (recommended)
 * Redis or Google Cloud Pub/Sub (for real-time communication)
 
-## Installation
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone <repository_url>
-    cd <project_directory>
-    ```
-
-2.  **Create a virtual environment (recommended):**
-
-    ```bash
-    python -m venv venv
-    ```
-
-3.  **Activate the virtual environment:**
-
-    * **On Windows:**
-
-        ```bash
-        venv\Scripts\activate
-        ```
-
-    * **On macOS and Linux:**
-
-        ```bash
-        source venv/bin/activate
-        ```
-
-4.  **Install dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-5.  **Configure Pub/Sub:**
-
-    * Configure your Pub/Sub service (Redis or Google Cloud Pub/Sub).
-    * Update the connection details in the `config.py` file or environment variables.
-
-6.  **Run the Flask API:**
-
-    ```bash
-    python app.py
-    ```
-
-7.  **Run unit tests:**
-
-    ```bash
-    python -m unittest discover tests
-    ```
 **Activate the env**
 ```
 conda activate block
